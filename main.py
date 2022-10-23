@@ -37,10 +37,11 @@ def computer_guess(x):
 
 
 def main():
+  x = 1000 #define your range here.
   game = int(input(f'What game do you want to play? \n \
   1 - Try to guess a number set by the computer; \n \
-  2 - The computer try to guess your number. \n Answer: '))
-  x = 1000
+  2 - The computer try to guess your number (between 1 and {x}). \n Answer: '))
+  
   if game == 1:
     guess(x)
   elif game == 2:
