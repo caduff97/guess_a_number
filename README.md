@@ -1,4 +1,4 @@
-# madlibs
+# guess_a_number
 
 It's a simple guess a number game. You can play two different games. The first one, you try to guess a number set by the machine. The second, the machine to guess your number.
 
